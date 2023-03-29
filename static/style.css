@@ -1,0 +1,47 @@
+#h{
+  font-style: initial;
+}
+#map { 
+  height: 500px;
+  width: 500px; 
+}
+#table{
+  top: 200px;
+}
+#logo{
+  width: 200px; 
+  height: 200px;
+  float: inline-start ;
+}
+ul{
+  background-color: white;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+  padding-left: 0px;
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+ul li{
+  list-style-type: none;
+  border-bottom: solid 1px #ddd;
+  padding: 15px;
+  padding-right: 0px;
+}
+#Cal{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+#result-container {
+  position: fixed;
+  top: 10%;
+  right: 2%;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(226, 186, 186);
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
